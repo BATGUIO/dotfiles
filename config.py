@@ -1,0 +1,1 @@
+/home/batguiokde/.config/qtile/defaultconfig.py
