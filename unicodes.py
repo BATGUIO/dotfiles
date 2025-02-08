@@ -1,3 +1,6 @@
+# DISCLAIMER: bar1.py, colors.py & unicodes.py 
+# aren't made by me. The original creator is ""
+
 from typing import Optional
 from libqtile.widget.textbox import TextBox
 

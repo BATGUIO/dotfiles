@@ -1,3 +1,6 @@
+# DISCLAIMER: bar1.py, colors.py & unicodes.py 
+# aren't made by me. The original creator is ""
+
 from libqtile.bar import Bar
 from libqtile.widget.battery import Battery
 from libqtile.widget.clock import Clock
@@ -80,7 +83,7 @@ bar = Bar([
     Clock(
         background=nord_fox['fg_gutter'],
         foreground=nord_fox['white'],
-        format='  %m | %d  %a  %H %M'
+        format='  %m | %d  %a  %H %M', locale='en_US.UTF-8'
     ),
 
 

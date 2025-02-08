@@ -1,3 +1,6 @@
+# DISCLAIMER: bar1.py, colors.py & unicodes.py 
+# aren't made by me. The original creator is ""
+
 nord_fox = {
     'bg': "#2e3440",
     'fg': "#b9bfca",
@@ -12,6 +15,15 @@ nord_fox = {
     'white': "#e5e9f0",
     'orange': "#c9826b",
     'pink': "#bf88bc",
+}
+
+finald = {
+    'bg': "#000000"
+    'pink': "#ff44f5"
+    'white': "#e5e9f0"      # stoled from nord_fox
+    'lpink': "#ff7ef7"
+    'llpink': "#ff9afa"
+    'grey': "#3c3c3c"
 }
 
 gruvbox = {
