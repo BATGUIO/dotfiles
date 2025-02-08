@@ -1,5 +1,7 @@
 # DISCLAIMER: bar1.py, colors.py & unicodes.py 
-# aren't made by me. The original creator is ""
+# aren't made by me. The original creator is "tuffgniuz"
+# and the repository of the original dotfiles
+# are: https://github.com/tuffgniuz/qtile
 
 from libqtile.bar import Bar
 from libqtile.widget.battery import Battery
@@ -13,7 +15,7 @@ from libqtile.widget.spacer import Spacer
 from libqtile.widget.systray import Systray
 from libqtile.widget.window_count import WindowCount
 from libqtile.widget.windowname import WindowName
-from libqtile.widget.prompt import Prompt
+from libqtile.widget.prompt import Prompt  # added by me for my prompt widget
 
 from unicodes import left_half_circle, right_arrow, left_arrow, right_half_circle, lower_left_triangle
 from colors import nord_fox

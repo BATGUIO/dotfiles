@@ -1,5 +1,7 @@
 # DISCLAIMER: bar1.py, colors.py & unicodes.py 
-# aren't made by me. The original creator is ""
+# aren't made by me. The original creator is "tuffgniuz"
+# and the repository of the original dotfiles
+# are: https://github.com/tuffgniuz/qtile
 
 nord_fox = {
     'bg': "#2e3440",
