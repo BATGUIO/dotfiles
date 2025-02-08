@@ -20,11 +20,11 @@ nord_fox = {
 }
 
 finald = {
-    'bg': "#000000"
-    'pink': "#ff44f5"
-    'white': "#e5e9f0"      # stoled from nord_fox
-    'lpink': "#ff7ef7"
-    'llpink': "#ff9afa"
+    'bg': "#000000",
+    'pink': "#ff44f5",
+    'white': "#e5e9f0",      # stoled from nord_fox
+    'lpink': "#ff7ef7",
+    'llpink': "#ff9afa",
     'grey': "#3c3c3c"
 }
 
