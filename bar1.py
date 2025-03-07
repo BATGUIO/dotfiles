@@ -23,6 +23,10 @@ from colors import nord_fox
 BAR_HEIGHT = 28
 # BAR_MARGIN = 5
 
+from locale import setlocale, LC_TIME # suggested by ChatGPT for changing the
+
+setlocale(LC_TIME, "en_US.UTF-8") # display of the day's week
+
 bar = Bar([
     GroupBox(
         disable_drag=True,
@@ -85,7 +89,7 @@ bar = Bar([
     Clock(
         background=nord_fox['fg_gutter'],
         foreground=nord_fox['white'],
-        format='  %m | %d  %a  %H %M', locale='en_US.UTF-8'
+        format='  %m | %d  %a  %H %M',
     ),
 
 
